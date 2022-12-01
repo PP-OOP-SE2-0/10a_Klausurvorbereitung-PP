@@ -134,20 +134,19 @@
 // }
 
 // 4. Fkt-Call aus Funktionen
-console.log(test4("Robert")); // Argument(e)
+// console.log(test4("Robert")); // Argument(e)
 
-function test4(firstName) // Parameter
-{ 
-   return grussformel() + firstName; 
-   // return firstName + grussformel() ; 
-}
+// function test4(firstName) // Parameter
+// { 
+//    return grussformel() + firstName; 
+//    // return firstName + grussformel() ; 
+// }
 
-function grussformel() {
-   // return "Hallo, ";
-    return "Hola, ";
-}
+// function grussformel() {
+//    // return "Hallo, ";
+//     return "Hola, ";
+// }
 
-// rechner();
-
+// // rechner();
 
 
