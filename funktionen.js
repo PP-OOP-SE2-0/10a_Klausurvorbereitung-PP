@@ -112,15 +112,17 @@
 /* FUNKTIONEN */
 
 // 1. Kapselung
-test();  // call
-function test() { // Fkt.-Rumpf | body
-    console.log("Testausgabe");
-}
+// test();  // call
+// function test() { // Fkt.-Rumpf | body
+//     console.log("Testausgabe");
+// }
 
-
-
-
-
+// 2. return
+//  console.log(test2());
+//  function test2() { // do something ...
+//     return "Testausgabe 2"; // Lieferung an die Stelle des calls
+//     console.log("Noch eine Ausgabe"); // nach return Abbruch!
+//  }
 
 
 
@@ -132,18 +134,18 @@ function test() { // Fkt.-Rumpf | body
 // }
 
 // 4. Fkt-Call aus Funktionen
-// console.log(test4("Robert")); // Argument(e)
+console.log(test4("Robert")); // Argument(e)
 
-// function test4(firstName) // Parameter
-// { 
-//    return grussformel() + firstName; 
-//    // return firstName + grussformel() ; 
-// }
+function test4(firstName) // Parameter
+{ 
+   return grussformel() + firstName; 
+   // return firstName + grussformel() ; 
+}
 
-// function grussformel() {
-//    // return "Hallo, ";
-//     return "Hola, ";
-// }
+function grussformel() {
+   // return "Hallo, ";
+    return "Hola, ";
+}
 
 // rechner();
 
